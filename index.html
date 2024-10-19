@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Static Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #0073e6;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
 </head>
 <body>
-    <h1>Welcome to My Static Website</h1>
-    <p>This is a simple static website deployed with AWS S3 and GitHub Actions.</p>
+    <header>
+        <h1>Welcome to My Static Website</h1>
+        <p>This is a simple static website deployed with AWS S3 and GitHub Actions.</p>
+    </header>
+    <main>
+        <section>
+            <h2>About This Project</h2>
+            <p>This project demonstrates how to use AWS S3 for static website hosting and GitHub Actions for CI/CD.</p>
+        </section>
+        <section>
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>AWS S3</li>
+                <li>GitHub Actions</li>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Static Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
